@@ -14,7 +14,7 @@ void insert(int size,int key){
     vector<int> v;
     v.push_back(1);
     v.push_back(key);
-    file.push_back(make_pair(v,size_of_page-4-size));
+    file.push_back(make_pair(v,size_of_page-4-size-16));
 }
 void status(){
     cout<<file.size()<<" ";
